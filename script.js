@@ -1,4 +1,3 @@
-
 // ENVIO PARA MEU WHATSAPP               
 function enviarWhats(event) {
     const nome = document.getElementById("nome").value
@@ -75,5 +74,3 @@ prev.onclick = function () {
     active = active - 1 >= 0 ? active - 1 : active;
     loadShow();
 };
-
-
